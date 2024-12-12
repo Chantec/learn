@@ -1,0 +1,3 @@
+/root/work/learncmake/v2/build/CMakeFiles/rebuild_cache.dir
+/root/work/learncmake/v2/build/CMakeFiles/calc.dir
+/root/work/learncmake/v2/build/CMakeFiles/edit_cache.dir

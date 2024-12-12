@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/main.cpp.o  -o app  -L/root/work/learncmake/v4/lib2 -Wl,-rpath,/root/work/learncmake/v4/lib2 -lcalc 

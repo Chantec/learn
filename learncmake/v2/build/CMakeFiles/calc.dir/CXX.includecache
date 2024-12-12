@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/head.h
+
+/root/work/learncmake/v2/src/add.cpp
+stdio.h
+-
+head.h
+/root/work/learncmake/v2/src/head.h
+
+/root/work/learncmake/v2/src/div.cpp
+stdio.h
+-
+head.h
+/root/work/learncmake/v2/src/head.h
+
+/root/work/learncmake/v2/src/mult.cpp
+stdio.h
+-
+head.h
+/root/work/learncmake/v2/src/head.h
+
+/root/work/learncmake/v2/src/sub.cpp
+stdio.h
+-
+head.h
+/root/work/learncmake/v2/src/head.h
+

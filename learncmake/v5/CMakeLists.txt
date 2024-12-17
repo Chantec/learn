@@ -1,29 +1,29 @@
 cmake_minimum_required(VERSION 3.5)
-
 project(CALC)
-
 # 设置 c++ 标准
 set(CMAKE_CXX_STANDARD 11)
 
+# 库路径
+set(LIBPATH ${CMAKE_CURRENT_SOURCE_DIR}/lib)
+# 可执行路径
+set(EXEPATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+# 头文件路径
+set(INCPATH ${CMAKE_CURRENT_SOURCE_DIR}/include)
+# 库文件名字
+set(CALCLIB calc)
+# 可执行文件名字
+set(APPNAME app)
 
-
-file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp) # cmakelist的路径
-
-# 指定头文件
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
-
-
-# link_libraries(calc) # 链接静态库
-link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib2) # 指定库文件路径 
-add_executable(app ${SRC_LIST})
-target_link_libraries(app calc) # 链接动态库
-
-
-
-
+add_subdirectory(src)
+add_subdirectory(test)
 
 
 
+
+
+
+
+# 笔记
 
 # cmake_minimum_required(VERSION 3.5)
 # project(CALC)
@@ -58,7 +58,7 @@ target_link_libraries(app calc) # 链接动态库
 # add_definitions(-DDEBUG)
 
 # 子目录
-
+# add_subdirectory(test)
 
 # 日志
 # message(STATUS "This is a message")

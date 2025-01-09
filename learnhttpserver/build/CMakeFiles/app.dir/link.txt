@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/Buffer.cpp.o CMakeFiles/app.dir/Log.cpp.o  -o app 

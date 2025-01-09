@@ -1,0 +1,4 @@
+/root/work/learnhttpserver/build/CMakeFiles/rebuild_cache.dir
+/root/work/learnhttpserver/build/CMakeFiles/pthread.dir
+/root/work/learnhttpserver/build/CMakeFiles/edit_cache.dir
+/root/work/learnhttpserver/build/CMakeFiles/app.dir
